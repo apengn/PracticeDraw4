@@ -60,13 +60,11 @@ public class Practice13CameraRotateHittingFaceView extends View {
         super.onDetachedFromWindow();
         animator.end();
     }
-
     @SuppressWarnings("unused")
     public void setDegree(int degree) {
         this.degree = degree;
         invalidate();
     }
-
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
